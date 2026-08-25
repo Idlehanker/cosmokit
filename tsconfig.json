@@ -11,6 +11,15 @@
     "skipLibCheck": true,
     "esModuleInterop": true,
     "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "cosmokit": [
+        "src"
+      ],
+      "cosmokit/*": [
+        "src/*"
+      ],
+    },
   },
   "include": [
     "src",
